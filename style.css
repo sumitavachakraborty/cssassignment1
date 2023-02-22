@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+  *{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fffffe;
+  }
+  hr{
+    margin: 2rem 0rem;
+  }
+
+  /* upper header */
+  .topHead{
+    display: block;
+    text-align: center;
+  }
+  h1 {
+    padding: 0.7rem;;
+    text-align: center;
+    color: #12333b;
+    background: #ef697e;
+  }
+  .topHead h1:hover{
+    color: #16161a;
+    font-weight: bold;
+  }
+  
+  .topText{
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    text-shadow: 0 0 3px #5f6c7b;
+    word-spacing: 2px;
+  }
+
+  .mainImage{
+    max-width: 350px;
+  }
+
+  .topNav{
+    display:flex;
+    padding: 2rem 2rem 2rem 1rem;
+    background-color: #94a1b2;
+    color: #fffffe;
+    text-align: center;
+  }
+  
+  .navtext{
+    background-color: #94a1b2;
+    padding: 1rem;
+    font-weight: bold;
+    max-width: 100%;
+  }
+
+  /* github link */
+  .gitlink{
+    margin-left: 0rem;
+    border-radius: 0.5rem;
+  /*   background: #f8bbed; */
+    color: #12333b;
+    text-decoration:none;
+    padding: 10px;
+  }
+  .topNav a:hover{
+    background-color: #ef697e;
+    color: #f8efcb;
+  }
+
+
+  /* hoverable program link */
+  .prog{
+    text-align: center;
+    padding-inline-start: 0px;
+    padding: 2rem 2rem 0rem 2rem;
+  }
+  .prog li{
+    display: inline;
+    text-align: center;
+    padding: 0rem 1rem;
+  }
+
+  .prog a{
+    padding: 20px;
+    text-decoration: none;
+    color: #12333b;
+    font-weight: bolder;
+  }
+  .prog a:hover{
+    background-color: #ef697e;
+    color: #fffffe;
+    padding: 10px;
+    transition: all 0.5s ease 0s;
+    border-radius:10px;
+  }
+  
+  /* entire tablle */
+  .perstable { 
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse; 
+    width:300px; 
+  }
+  .perstable th, .perstable td { 
+    padding: 20px; 
+    border: solid 1px #777; 
+  }
+  .perstable th { 
+    background-color: #ef697e; 
+  }
+  .perstable-separate { 
+    border-collapse: separate; 
+    border-spacing: 5px;
+  }
+
+  /* form submit  */
+  .formsubmit{
+    padding: 20px;
+    background-color: #94a1b2;
+    display: block;
+    border-top-left-radius: 20px;
+  }
+  
+  .formsubmit p{
+    display: grid;
+    place-items: center;
+    background-color: #94a1b2;
+  }
+  label{
+    display: block; 
+    padding: 5px;
+    background-color: #94a1b2;
+    font-weight: bolder;
+    color: #fffffe;
+  }
+
+  /* form button */
+  #buttonsubmit{
+    border: #94a1b2;
+    padding: 15px;
+
+  }
+
+  #buttonsubmit:hover{
+    background-color: #ef697e;
+    color: #f8efcb;
+  }
+
+
+  
